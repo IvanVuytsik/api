@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Post({post}) {
 
-  const publicFolder = "https://blog-tsq.herokuapp.com/images/";;
+  const publicFolder = "https://blog-tsq.herokuapp.com/images/";
 
   return (
     <div className="post">
