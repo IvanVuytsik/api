@@ -1,0 +1,103 @@
+.single-post {
+    flex: 9;
+}
+
+.wrapper {
+    padding: 1rem;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-img {
+    width: 50vw;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-post-title,
+.single-post-title-input {
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: var(--color-text-dark);
+    border: none;
+    border-bottom: 1px solid var(--color-text-dark);
+}
+
+.single-post-title-input:focus {
+    outline: none;
+}
+ 
+.edit-container {
+    float: right;
+    font-size: 1rem;
+}
+
+.edit-icon {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.edit-container :first-child {
+    color: var(--color-6);
+}
+
+.edit-container :last-child {
+    color: var(--color-8);
+}
+
+.single-post-info {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-family: "Varela", sans-serif;
+    color: var(--color-text-dark);
+}
+
+.single-post-desc {
+    font-size: 1.2rem;
+    color: var(--color-text-dark);
+    line-height: 2rem;
+}
+
+.single-post-desc-input {
+    font-size: 1.2rem;
+    color: var(--color-text-dark);
+    line-height: 2rem;
+    border: none;
+    height: 30vh;
+}
+
+.single-post-desc-input:focus {
+    outline: none;
+}
+
+.single-post-desc::first-letter {
+    font-size: 2rem;
+    color: var(--color-8);
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.single-post-btn {
+    position: relative;
+    width: 6rem;
+    color: var(--color-text-light);
+    background-color: var(--color-bg-dark);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+    align-self: flex-end;
+}

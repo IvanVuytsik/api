@@ -1,0 +1,82 @@
+.write {
+    padding-top: 3rem;
+}
+
+.write-form {
+    position: relative;
+}
+
+.form-group {
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.cat-selection {
+    position: absolute;
+    top: 1rem;
+    right: 10rem;
+    color: var(--color-text-light);
+    background-color: var(--color-bg-dark);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+}
+
+
+.write-icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--color-3);
+    cursor: pointer;
+}
+
+.write-input {
+    font-size: 1.8rem;
+    border: none;
+    padding: 1rem;
+    width: 80vw;
+}
+
+.write-input:focus {
+    outline: none;
+}
+
+.write-text {
+    font-size: 1.2rem;
+    height: 50vh;
+}
+
+.write-submit {
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+    color: var(--color-text-light);
+    background-color: var(--color-bg-dark);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.write-img {
+    width: auto;
+    height: 40vh;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

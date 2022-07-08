@@ -1,0 +1,57 @@
+.post {
+    width: 40%;
+    margin: 0 2rem 3rem 2rem;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.post-ctg {
+    font-family: 'Varela', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    color: var(--color-3);
+    cursor: pointer;
+}
+
+.post-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: var(--color-text-dark);
+}
+
+.post-date {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--color-9);
+}
+
+.post-desc {
+    font-family: 'Varela', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 0.2rem;
+    color: var(--color-text-dark);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

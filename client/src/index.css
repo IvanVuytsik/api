@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    min-width: 360px;
+    min-height: 100%;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    background: var(--color-bg);
+}
+
+
+:root{
+    --color-bg: #ffffff;
+    --color-bg-light: #ECE5C7;
+    --color-bg-dark: #354259;
+
+    --color-text-dark: #1e2a3f;
+    --color-text-light: #CDC2AE;
+
+    --color-1: #f0e6ce;
+    --color-2: #DEB6AB;
+    --color-3: #d9e1f1;
+    --color-4: #AC7D88;
+    --color-5: #85586F;
+    --color-6: #5F7161;
+    --color-7: #6D8B74;
+    --color-8: #BB6464;
+    --color-9: #c2beba;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
